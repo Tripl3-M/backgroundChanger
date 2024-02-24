@@ -1,0 +1,38 @@
+main{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 3rem;
+}
+
+#content{
+    background-color:rgb(68, 68, 68);
+    color: azure;
+    padding: 5px;
+    position: relative;
+    width: 90vw;
+    align-self: center;
+    max-width: 30%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    margin-top: 15em;
+}
+
+#button{
+    background-color: rgb(68, 68, 68);
+    padding: 10px;
+    color: azure;
+    border: none;
+}
+
+#button:hover{
+    color: var(--clr-white);
+    background: var(--clr-black);
+    border: 1px solid rgb(68, 68, 68);
+    cursor: pointer;
+}
+
+.color {
+    color: blue;
+  }
